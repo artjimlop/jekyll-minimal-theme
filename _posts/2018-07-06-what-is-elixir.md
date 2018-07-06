@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What the hell is Elixir?"
+description: 'Elixir is a functional language wich everages the Erlang VM designed for building scalable, maintainable and highly concurrent applications.'
 ---
 
 This is a question that usually comes around whenever I'm talking about Elixir at the office so, In order to help myself and others to answer this question, I have decided to create  a post about that!
