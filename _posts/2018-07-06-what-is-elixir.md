@@ -51,11 +51,11 @@ There are no silver bullets in this world (except for the actual silver bullets 
 
 * Elixir’s ecosystem currently isn’t as mature as Erlang’s, but you can use practically any Erlang library from Elixir.
 
-### TL;DR:
+### Summary
 
 * Erlang is a technology for developing highly available systems that constantly provide service with little or no downtime. It has been battle tested in diverse large systems for more than two decades.
 
-* Elixir is a modern language that makes development for the Erlang platform much more pleasant. It helps organize code more efficiently and abstracts away boilerplate, noise, and duplication.(with some minor exceptions)
+* Elixir is a modern language that makes development for the Erlang platform much more pleasant. It helps organize code more efficiently and abstracts away boilerplate, noise, and duplication.
 
 ~~~
 title:   'What the hell is Elixir?'
