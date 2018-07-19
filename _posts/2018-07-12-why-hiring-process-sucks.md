@@ -1,12 +1,10 @@
 ---
 layout: post
 title: "Why your hiring process sucks"
-description: 'A rough opinion on the current IT hiring processes trend.'
+description: 'A rough opinion on the current IT recruitment processes trend.'
 ---
 
-Maybe after this post I have to really start thinking about becoming a youtuber to yell my opinions directly from a microphone to your computer screen.
-
-Jokes aside, I’d like to talk about some things I’ve found during the hiring processes I’ve been involved with. Not all processes are the same, someone have been really interesting and I’ve dropped (or been dropped) from several. This said, I’ve checked LinkedIn for five minutes and collected some interesting points I’ve found in the jobs description. I hope this helps to explain my point of view regarding this topic.
+I’d like to talk about some things I’ve found during the hiring processes I’ve been involved with. **All processes are not the same**, someone have been really interesting and I’ve dropped (or been dropped) from several. I'm not here proposing any new or revolutionary hiring process flowchart.This said, I’ve checked LinkedIn for five minutes and collected some interesting points I’ve found in the jobs description. I hope this helps to explain my point of view regarding this topic.
 
 ### You have to do this technical assignment before meeting the team or doing any technical interview
 
@@ -42,7 +40,7 @@ I like to talk about money right at the end of the post because it gives an inte
 
 ~~~
 title:   'Why your hiring process sucks'
-url:     'https://artjimlop.github.io/napalmdrivendevelopment/why-hiring-process-sucks.html'
+url:     'http://www.napalmdrivendevelopment.xyz/why-hiring-process-sucks.html'
 author:
   name:  '@artjimlop'
 ~~~
