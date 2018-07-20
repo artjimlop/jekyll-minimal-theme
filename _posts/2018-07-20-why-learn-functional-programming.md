@@ -89,7 +89,10 @@ person.name = "Not John Doe" // Fails. Val cannot be reassigned.
 
 # Elixir
 map_set = MapSet.new
-foo_set = MapSet.put(map_set, "foo")  # map_set = MapSet<[]> and foo_set = MapSet<["foo"]>
+foo_set = MapSet.put(map_set, "foo")  
+
+# map_set = MapSet<[]>
+# foo_set = MapSet<["foo"]>
 ~~~
 
 ### Object-oriented Programming VS Functional Programming: fight!
@@ -98,13 +101,12 @@ High availability, concurrency, parallelism, predictability, distributed systems
 
 Previously, I've enounced a bunch of functional programming features. **Immutable state** may sound like a not particularly interesting feature, but plays a huge role in helping us developing our systems. Not relying on Object Oriented Programming's mutability concept helps give us **predictability**. Given some input, a function is going to return us the same output whether if it's running in one core or in a thousand cores. No process is messing around with no state. A lot of *complexity is drastically reduced* just because we don't have to worry about keeping threads correctly updated and synchronized.
 
-Functional programming languages are typically less efficient in their use of CPU and memory than imperative languages. However, such slowdowns are not universal. Programs that perform intensive numerical computations written in a functional programming language has been proven to be only slightly slower than C. Also, immutability of data can in many cases lead to execution efficiency by allowing the compiler to make assumptions that are unsafe in an imperative language.
+Functional programming languages are typically *less efficient* in their use of CPU and memory than imperative languages. However, such slowdowns are not universal. Programs that perform intensive numerical computations written in a functional programming language *has been proven to be only slightly slower than C*. Also, **immutability** of data can in many cases lead to **execution efficiency** by allowing the compiler to make assumptions that are unsafe in an imperative language.
 
 Learning a functional programming language mainly gives you *a new perspective*. Keep in mind that you can use these functional features explained before in other languages. This said, I would recommend to use a functional language on a future pet project or even apply these concepts to your production code if this is possible.
 
 ~~~
 title:   'This is why you should learn a functional programming language'
-url:     'http://www.napalmdrivendevelopment.xyz/why-learn-functional-programming.html'
 author:
   name:  '@artjimlop'
 ~~~
