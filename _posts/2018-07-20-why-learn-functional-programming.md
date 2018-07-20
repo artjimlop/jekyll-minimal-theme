@@ -62,13 +62,23 @@ A **Closure** simply creates a scope that allows the function to access and mani
 
 ~~~
 // Kotlin
-val double = fun(x: Int): Int {
-  return x * 2
+val benchmark = fun(startInMilliseconds: Int): (Int) -> Int {
+    return fun(endInMilliseconds: Int): Int {
+        return endInMilliseconds - startInMilliseconds
+    }
 }
 
+val timeLapse = benchmark(1000)
+timeLapse(5000) // result: 4000
+
 # Elixir
-double = fn(x) -> x * 2 end
+benchmark = fn(start_milliseconds) ->
+  fn(end_milliseconds) -> end_milliseconds - start_milliseconds
+  end
+end
 ~~~
+
+I will use the same example of High-Order Function again, the variable startInMilliseconds (or start_milliseconds) was enclosed and is only accessible to the returning function.
 
 **Immutable State** means that you can't change any state at all.
 
