@@ -107,6 +107,7 @@ Learning a functional programming language mainly gives you *a new perspective*.
 
 ~~~
 title:   'This is why you should learn a functional programming language'
+url:     'http://www.napalmdrivendevelopment.xyz/why-learn-functional-programming.html'
 author:
   name:  '@artjimlop'
 ~~~

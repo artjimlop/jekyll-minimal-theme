@@ -62,7 +62,7 @@ There are no silver bullets in this world (except for the actual silver bullets 
 
 ~~~
 title:   'What the hell is Elixir?'
-url:     'http:/www.napalmdrivendevelopment.xyz/what-is-elixir.html'
+url:     'http://www.napalmdrivendevelopment.xyz/what-is-elixir.html'
 author:
   name:  '@artjimlop'
 ~~~
