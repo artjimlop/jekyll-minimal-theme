@@ -25,6 +25,8 @@ permalink: /:title.html
 exclude:
 - README.md
 
+plugins:
+  - jekyll-sitemap
 
 safe: true
 lsi: false
